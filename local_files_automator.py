@@ -1,7 +1,4 @@
 # EDIT THESE
-path = "C:\\"
-# ^ Path to folder that this file is in (must also contain a folder called "songs")
-# (leave as empty string or False if you do not want to email mp3)
 trim = True
 # ^ Trim silence from beginning and ends of snippets in an attempt to make final export
 # smoother (may result in sonic artifacts if a portion of the song is meant to be silent)
@@ -12,6 +9,8 @@ import eyed3
 import requests
 import shutil
 import os
+
+path = os.path.abspath(os.getcwd())
 
 # Prompt user to input song title and artist name and generate SoundCloud query
 title = input("Title: ")
