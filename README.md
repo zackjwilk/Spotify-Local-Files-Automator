@@ -2,7 +2,7 @@
 ---
 Spotify Local Files Automator is a Python script that takes user input of a song title and artist name and/or link to song on SoundCloud and rips the song from SoundCloud, downloads it, adds metadata (title, artist, cover image), and places it in the user's specified Spotify local files folder so they can listen to it on Spotify (useful for unreleased songs or songs that are otherwise not typicaly available on Spotify).
 
-SoundCloud got rid of its API allowing downloads of songs, so the program listens for responses containing "mp3", downloads these splices of the songs, and pieces them together to combat this.
+SoundCloud got rid of its API allowing downloads of songs, so the program listens for responses containing "mp3", downloads these splices of a song, and pieces them together to combat this.
 
 ### Installation
 ---
