@@ -13,6 +13,8 @@ import requests
 import shutil
 import os
 
+os.environ["GIT_PYTHON_REFRESH"] = "quiet"
+
 # Prompt user to input song title and artist name and generate SoundCloud query
 title = input("Title: ")
 artist = input("Artist: ")
