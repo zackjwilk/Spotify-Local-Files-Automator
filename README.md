@@ -14,6 +14,6 @@ Clone the repository:
 ---
 Install dependencies with pip:
 
-`pip install -r requirements.txt`
+`pip install -r spotify-local-files-automator/requirements.txt`
 
 Set songs folder to your local files folder on Spotify and run local_files_automator.py!
