@@ -16,4 +16,4 @@ Install dependencies with pip:
 
 `pip install -r requirements.txt`
 
-Run local_files_automator.py!
+Set songs folder to your local files folder on Spotify and run local_files_automator.py!
