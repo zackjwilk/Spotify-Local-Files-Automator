@@ -4,7 +4,7 @@ Spotify Local Files Automator is a Python script that takes user input of a song
 
 SoundCloud got rid of its API allowing downloads of songs, so the program listens for responses containing "mp3", downloads these splices of a song, and pieces them together to combat this.
 
-NOTE: When downloading these mp3 snippets, some lead and end with short bits of silence. To combat this and make the final export more smooth, the program tries to detect these bits of silence on each splice and get rid of it, but this could result in sonic artifacts if there is intended silence in the song. To turn this festure off, there is a toggleable boolean variable at the top of the script called "trim". 
+NOTE: When downloading these mp3 snippets, some of them lead and end with short bits of silence. To combat this and make the final export more smooth, the program tries to detect these bits of silence on each splice and get rid of it, but this could result in sonic artifacts if there is intended silence in the song. To turn this festure off, there is a toggleable boolean variable at the top of the script called "trim". 
 ### Installation
 ---
 Clone the repository:
